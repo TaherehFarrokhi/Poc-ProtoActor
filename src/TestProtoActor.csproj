@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UserSecretsId>dotnet-TestProtoActor-63052FC4-52BC-4E9B-8B79-6D2121AA3DD4</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.0.0" />
+    <PackageReference Include="Proto.Actor" Version="0.2.0" />
+    <PackageReference Include="Proto.Mailbox" Version="0.2.0" />
+    <PackageReference Include="Proto.Router" Version="0.2.0" />
+    <PackageReference Include="Proto.Persistence" Version="0.2.0" />
+    <PackageReference Include="Proto.Remote" Version="0.2.0" />
+    <PackageReference Include="Proto.Cluster" Version="0.2.0" />
+    <PackageReference Include="Proto.Actor.Extensions" Version="0.2.0" />
+  </ItemGroup>
+</Project>
